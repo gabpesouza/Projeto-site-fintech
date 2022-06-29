@@ -1,0 +1,230 @@
+
+
+.container-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+header{
+
+    flex-direction: row;
+}
+
+li > h1 {
+    font-size:1.875rem; ;
+    margin-right: 36px;
+    color: #480079;
+    font-family: 'Dosis', sans-serif;
+    border-bottom: 0.5px solid #480079;
+}
+
+li {
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color:#8F13E1 ;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.25rem;
+    margin-right: 32px;
+    transition: 300ms all;
+    
+}
+
+li a:hover {
+    font-size:1.438rem;
+    color:#480079; 
+}
+
+.container{
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items:center;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 8rem 0;
+    border-radius: 100px;
+    box-shadow: 5px 5px 8px  black;
+     
+    
+}
+.form h2 {
+    font-size: 2rem;
+    font-family: 'Dosis', sans-serif;
+
+    
+}
+
+
+   
+ 
+
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border:0;
+    border-bottom: 0.7px solid #8F13E1;
+    background-color: transparent;
+    outline: none;
+    font-size: 1rem;
+    
+   
+}
+
+#submit {
+    padding: 12px 30px;
+    width: 65%;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 1rem;
+    background-color:#8F13E1;
+    color: white;
+    transition: all 300ms;
+    text-align: center;
+    text-decoration: none;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: #480079;
+}
+
+.forgot {
+    text-decoration: none;
+    color: #8F13E1;
+    margin-top: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+.form p{
+    font-family: 'Dosis', sans-serif;
+    margin-top: 10px;
+
+}
+.cadastro {
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    margin-left: 5px;
+    color:#8F13E1 ;
+
+}
+
+.cadastro:hover {
+    text-decoration: underline;
+}
+.side {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.side h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.875rem;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.side p {
+text-align: center;
+font-family: 'Dosis', sans-serif;
+font-size:1.25rem;
+
+}
+
+.side img{
+    width: 500px;
+    height: 500px;
+    float: left;
+    
+}
+
+
+@media screen and (max-width:500px) {
+
+        .container-header {
+            display: none;
+        
+
+    
+    }
+
+        .container{
+            flex-direction: column;
+            margin:400px 0;
+
+        }
+
+        .side{
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+
+        }
+
+    
+        
+        .form{
+            margin-top: 200px;
+            width: 100%;
+            
+        }
+        
+        .side h3 {
+            font-size: 4rem;
+        }
+        .side p{
+            font-size: 4rem;
+            margin:0 40px;
+            
+        }
+
+        .form h2{
+            font-size: 4rem;
+        }
+       
+       .box{
+        border-bottom: 3px solid #8F13E1;
+        margin:40px;
+        font-size: 2.5rem;
+       }
+
+       #submit{
+        font-size: 2.5rem;
+        padding: 30px;
+        margin-top: 35px;
+       }
+       .forgot{
+        font-size: 3rem;
+       }
+       .form p{
+        font-size: 3rem;
+        margin-top: 20px;
+       }
+}
+
+
+
+
+
+
